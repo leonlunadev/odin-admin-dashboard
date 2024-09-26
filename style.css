@@ -27,31 +27,28 @@
   gap: 10px;
 }
 
-.announcements {
+.sidebar {
   background-color: lightblue;
   grid-column: 3 / 4;
-  grid-row: 2 / 3;
+  grid-row: 2 / 4;
   display: grid;
-  grid-template-columns: 1fr;
-
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
+  justify-items: center;
 }
 
 .trending {
-  background-color: lightgreen;
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
+  background-color: white;
+  min-width: 200px;
+  min-height: 300px;
+}
+
+.announcements {
+  background-color: white;
+  min-height: 300px;
+  min-width: 200px;
 }
 
 .cards {
   min-height: 200px;
-  background-color: white;
-}
-
-.list {
-  background-color: white;
-  min-width: 150px;
 }
