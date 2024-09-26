@@ -1,26 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
   height: 100vh;
 }
 
 .dashboard {
   background-color: #0ea5e9;
+  color: white;
   grid-column: 1 / 2;
-  grid-row: 1 / 4;
+  grid-row: 1 / 3;
+  gap: 20px;
+}
+
+.dashboard div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 10px;
+}
+
+.icon {
+  background-color: white;
+  width: 20px;
+  height: 20px;
 }
 
 .header {
   background-color: lightgreen;
-  grid-column: 2 / 4;
+  grid-column: 2 / 3;
   grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.main-content {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .projects {
   background-color: grey;
-  grid-column: 2 / 3;
-  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -29,26 +61,30 @@
 
 .sidebar {
   background-color: lightblue;
-  grid-column: 3 / 4;
-  grid-row: 2 / 4;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
-  justify-items: center;
 }
 
 .trending {
   background-color: white;
   min-width: 200px;
   min-height: 300px;
+  place-self: center;
 }
 
 .announcements {
   background-color: white;
   min-height: 300px;
   min-width: 200px;
+  place-self: center;
 }
 
 .cards {
+  background-color: white;
   min-height: 200px;
+  min-width: 300px;
+  place-self: center;
 }
