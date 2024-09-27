@@ -93,21 +93,28 @@
 
 .trending {
   background-color: white;
-  min-width: 200px;
-  min-height: 300px;
+  min-width: 250px;
+  min-height: 350px;
   place-self: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .announcements {
   background-color: white;
-  min-height: 300px;
-  min-width: 200px;
+  min-height: 350px;
+  min-width: 250px;
   place-self: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .cards {
   background-color: white;
-  min-height: 200px;
-  min-width: 300px;
+  min-height: 250px;
+  min-width: 400px;
   place-self: center;
+  border-radius: 10px;
+  border-left: 10px solid #f0b429;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
