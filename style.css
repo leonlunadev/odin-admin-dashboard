@@ -17,8 +17,9 @@ button {
 input {
   background-color: #e2e8f0;
   border-radius: 20px;
-  padding: 5px 200px;
-  width: 90%;
+  padding: 10px 200px;
+  width: 70%;
+  border: none;
   cursor: pointer;
 }
 
@@ -57,21 +58,22 @@ h2 {
   font-size: 24px;
 }
 
+svg {
+  fill: #ffffff;
+}
+
 #big .icon {
-  background-color: white;
   width: 30px;
   height: 30px;
 }
 
 .dashboard .icon {
-  background-color: white;
   justify-self: center;
 }
 
 .icon {
-  background-color: black;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }
 
 .header {
