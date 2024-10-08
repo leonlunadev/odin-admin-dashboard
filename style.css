@@ -119,10 +119,11 @@ svg {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 5fr 1fr 5fr;
+  padding: 20px;
 }
 
 .main-content h1 {
-  align-self: end;
+  align-self: center;
 }
 
 .projects {
@@ -158,4 +159,11 @@ svg {
   border-radius: 10px;
   border-left: 10px solid #f0b429;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin: 20px;
+}
+
+.icons {
 }
