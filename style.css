@@ -165,9 +165,11 @@ svg {
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   display: grid;
-  padding: 20px;
+  padding: 30px;
   grid-template-rows: 1fr 1fr 1fr;
   font-size: 14px;
+  display: grid;
+  align-items: center;
 }
 
 .cards {
